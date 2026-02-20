@@ -1,0 +1,17 @@
+references for rtl (main dsp core)
+
+compression based dsp core.
+custom risc isa
+
+decide upon the flow of how stuff go around.
+this particular dsp core i am working with works.
+isa
+hdl code : iverilog
+tb : cocotb based off python 
+automate that section
+
+rtl to gds2 flow
+openroad: flow script
+
+documentation 
+gitdoc

@@ -1,0 +1,2 @@
+all yt videos will be uploaded here.
+i will also have to add a gitignore so that once i add stuff, its not present in the server but as a local repo
