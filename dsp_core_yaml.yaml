@@ -5,9 +5,10 @@ project:
 
 sources:
   - src/dsp_top.v
+  - src/unpacker.v
   - src/subtractor.v
   - src/clz.v
-  - src/bit_packer_32.v
+  - src/bit_packer.v
 
 testbenches:
   - tb/dsp_top_tb.v

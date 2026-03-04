@@ -1,14 +1,13 @@
 module clz (
     input enable,
     input wire [31:0] in,
-    output reg [4:0] count
+    output reg [4:0] count,
+    output valid_op
 );
-
-    always @(*) begin
         pri_enc pri_enc_inst (
             .en(enable),
             .data_i(in),
             .index_o(count)
         );
-    end
+        assign valid_op=enable; // Output is valid when enable is high
 endmodule
