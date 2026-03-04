@@ -1,0 +1,8 @@
+
+    // Packet Mapping
+    // [63:56] Padding (0xAA): 8 bits
+    // [55:48] Hamming Parity Bits : 8 bits
+    // [47:32] Extra Padding : 16 bits
+    // [31:0]  Payload : 32 bits
+
+    Using (63,57) Hamming encoding

@@ -1,0 +1,13 @@
+project:
+  name: "dsp_core"
+  language: "verilog"
+  top_module: "dsp_top"
+
+sources:
+  - src/dsp_top.v
+  - src/subtractor.v
+  - src/clz.v
+  - src/bit_packer_32.v
+
+testbenches:
+  - tb/dsp_top_tb.v
